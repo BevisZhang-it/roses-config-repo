@@ -24,7 +24,7 @@ spring:
       max-file-size: 20MB
       max-request-size: 30MB
   kafka:
-    bootstrap-servers: 127.0.0.1:9092
+    bootstrap-servers: 192.168.20.4:9092
     listener:
       type: BATCH
     producer:
